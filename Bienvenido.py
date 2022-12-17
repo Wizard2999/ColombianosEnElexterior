@@ -21,4 +21,4 @@ st.markdown("Bienvenidos al tablero digital del Grupo , en este tablero se mostr
 st.markdown("---")
 
 st.markdown("Número de Colombianos en el extranjero.")
-st.markdown('{:,}'.format(datos['CANTIDAD DE PERSONAS'].sum()))
+#st.markdown('{:,}'.format(datos['CANTIDAD DE PERSONAS'].sum()))
