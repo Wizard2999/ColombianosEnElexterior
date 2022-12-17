@@ -3,9 +3,9 @@ import requests
 import pandas as pd
 import plotly.express as px
 
+url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQyG--czZ6babMu7IIUyv_lDHNNIMbOT5orCJafwvahFmtrqJoIjbhG3JcINpCL4Kvz4U-lP-_fZg1a/pub?output=csv'
 st.markdown("<h1 style='text-align: center; color: White;'>Predicción </h1>", unsafe_allow_html=True)
 
-url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmR6eCVm8JAhFLi53wF0-y-R9CpbzcnwJBWhliPrYrzi6td1XEZuDWqUSklCLqPGenlUzSAm837ZKb/pub?output=csv'
 
 def cargar_datos(filename: str):
     return pd.read_csv(filename,sep=";")
