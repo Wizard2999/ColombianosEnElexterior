@@ -4,11 +4,10 @@ import plotly.express as px
 import numpy as np
 
 
-
+url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQyG--czZ6babMu7IIUyv_lDHNNIMbOT5orCJafwvahFmtrqJoIjbhG3JcINpCL4Kvz4U-lP-_fZg1a/pub?output=csv'
 #Title
 st.markdown("<h1 style='text-align: center; color: White;'>Porcentaje de grupos de edad para los colombianos en el exterior </h1>", unsafe_allow_html=True)
 #Loading data
-url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmR6eCVm8JAhFLi53wF0-y-R9CpbzcnwJBWhliPrYrzi6td1XEZuDWqUSklCLqPGenlUzSAm837ZKb/pub?output=csv'
 
 @st.cache
 def cargar_datos(filename: str):
