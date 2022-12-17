@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 #Title
 st.markdown("<h1 style='text-align: center; color: White;'>Mapa Interactivo. </h1>", unsafe_allow_html=True)
 st.markdown("Revision de colombianos por todo el mapa")
-url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmR6eCVm8JAhFLi53wF0-y-R9CpbzcnwJBWhliPrYrzi6td1XEZuDWqUSklCLqPGenlUzSAm837ZKb/pub?output=csv'
+url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmR6eCVm8JAhFLi53wF0-y-R9CpbzcnwJBWhliPrYrzi6td1XEZuDWqUSklCLqPGenlUzSAm837ZKb/pub?output=csv"
 
 #Loading data
 @st.cache(allow_output_mutation=True)
